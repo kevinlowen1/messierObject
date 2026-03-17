@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Temporary / partial downloads
+*.part
+
+# Project-generated caches
+seds-12months-cache.json
+
+# Downloaded / generated artifacts (large, reproducible)
+# - Finder chart PDFs (downloaded)
+messier-finder-charts-pdfs/
+# - Combined finder chart output(s)
+messier-finder-charts*.pdf
+# - Monthly sky chart PDFs (downloaded)
+sky-charts-pdfs/
+# - Extracted picture pages (generated)
+visual-guide-picture-pages/
+# - Inverted visual guide (generated)
+*-inverted.pdf
+# - Final book output(s) (generated)
+messier-observing-book*.pdf
+
+# Local copies of the source visual guide PDF (often large / not redistributable)
+Visual_Guide_to_Messier-objects*.pdf
